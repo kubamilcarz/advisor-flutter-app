@@ -1,5 +1,5 @@
-import 'package:advisor/presentation/app/app.dart';
 import 'package:advisor/counter/counter.dart';
+import 'package:advisor/presentation/app/app.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

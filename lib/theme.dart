@@ -26,17 +26,19 @@ class AppTheme {
   // Text Style - light
   // *****************
   static const TextStyle _lightHeadingText = TextStyle(
-      color: _lightTextColorPrimary,
-      fontFamily: "Rubik",
-      fontSize: 20,
-      fontWeight: FontWeight.bold);
+    color: _lightTextColorPrimary,
+    fontFamily: 'Rubik',
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+  );
 
   static const TextStyle _lightBodyText = TextStyle(
-      color: _lightTextColorPrimary,
-      fontFamily: "Rubik",
-      fontStyle: FontStyle.italic,
-      fontWeight: FontWeight.bold,
-      fontSize: 16);
+    color: _lightTextColorPrimary,
+    fontFamily: 'Rubik',
+    fontStyle: FontStyle.italic,
+    fontWeight: FontWeight.bold,
+    fontSize: 16,
+  );
 
   static const TextTheme _lightTextTheme = TextTheme(
     headlineMedium: _lightHeadingText,
@@ -62,30 +64,34 @@ class AppTheme {
   // *****************
 
   static final ThemeData lightTheme = ThemeData(
-      scaffoldBackgroundColor: _lightPrimaryColor,
-      appBarTheme: const AppBarTheme(
-          color: _appbarColorLight,
-          iconTheme: IconThemeData(color: _iconColor)),
-      bottomAppBarTheme: BottomAppBarTheme(color: _appbarColorLight),
-      colorScheme: ColorScheme.light(
-        primary: _lightPrimaryColor,
-        onPrimary: _lightOnPrimaryColor,
-        secondary: _accentColor,
-        primaryContainer: _lightPrimaryVariantColor,
-      ),
-      textTheme: _lightTextTheme);
+    scaffoldBackgroundColor: _lightPrimaryColor,
+    appBarTheme: const AppBarTheme(
+      color: _appbarColorLight,
+      iconTheme: IconThemeData(color: _iconColor),
+    ),
+    bottomAppBarTheme: const BottomAppBarTheme(color: _appbarColorLight),
+    colorScheme: ColorScheme.light(
+      primary: _lightPrimaryColor,
+      onPrimary: _lightOnPrimaryColor,
+      secondary: _accentColor,
+      primaryContainer: _lightPrimaryVariantColor,
+    ),
+    textTheme: _lightTextTheme,
+  );
 
   static final ThemeData darkTheme = ThemeData(
-      scaffoldBackgroundColor: _darkPrimaryColor,
-      appBarTheme: AppBarTheme(
-          color: _appbarColorDark,
-          iconTheme: const IconThemeData(color: _iconColor)),
-      bottomAppBarTheme: BottomAppBarTheme(color: _appbarColorDark),
-      colorScheme: ColorScheme.dark(
-        primary: _darkPrimaryColor,
-        secondary: _accentColor,
-        onPrimary: _darkOnPrimaryColor,
-        primaryContainer: _darkPrimaryVariantColor,
-      ),
-      textTheme: _darkTextTheme);
+    scaffoldBackgroundColor: _darkPrimaryColor,
+    appBarTheme: AppBarTheme(
+      color: _appbarColorDark,
+      iconTheme: const IconThemeData(color: _iconColor),
+    ),
+    bottomAppBarTheme: BottomAppBarTheme(color: _appbarColorDark),
+    colorScheme: ColorScheme.dark(
+      primary: _darkPrimaryColor,
+      secondary: _accentColor,
+      onPrimary: _darkOnPrimaryColor,
+      primaryContainer: _darkPrimaryVariantColor,
+    ),
+    textTheme: _darkTextTheme,
+  );
 }
