@@ -1,4 +1,4 @@
-import 'package:advisor/presentation/advice/cubit/advice_bloc.dart';
+import 'package:advisor/presentation/advice/bloc/advice_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

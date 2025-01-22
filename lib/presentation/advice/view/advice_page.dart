@@ -1,4 +1,4 @@
-import 'package:advisor/presentation/advice/cubit/advice_bloc.dart';
+import 'package:advisor/presentation/advice/bloc/advice_bloc.dart';
 import 'package:advisor/presentation/advice/view/widgets/advice_field.dart';
 import 'package:advisor/presentation/core/services/theme_service.dart';
 import 'package:advisor/presentation/core/widgets/custom_button.dart';
